@@ -1,0 +1,84 @@
+ <!DOCTYPE html>
+ <html lang="es">
+ <head>
+	<meta charset="utf-8" />
+ <title>Banderas</title>
+ 
+ <style>
+ 	.boxBandera{
+ 		width: 300px;
+ 		height: 150px;
+ 		margin-bottom: 15px;
+ 		border: 1px black solid;
+ 	}
+ 	.espana{
+ 		background-color: red;
+ 	}
+ 	.franja3{
+ 		height: 33.33%;
+ 	}
+ 	.franja2{
+ 		height: 45%;
+ 	}
+ 	.franja4 {
+	    width: 15px;
+	    height: 150px;
+	    background-color: white;
+	    margin-top: -150px;
+	    margin-left: 50px;
+	}
+ 	.franja1{
+ 		background-color: white;
+ 	}
+ 	.circulo {
+	    width: 100px;
+	    height: 100px;
+	    -moz-border-radius: 50%;
+	    -webkit-border-radius: 50%;
+	    border-radius: 50%;
+	    background: red;
+	    /* margin-top: 19px; */
+	    margin: 20px auto 0px auto;
+	}
+	.conte {
+	    width: 40%;
+	    float: left;
+	}
+ </style>
+
+ </head>
+	 <body>
+	 	<div class="conte">
+			 <div class="boxBandera espana">
+			 	<div class="franja3"></div>
+			 	<div class="franja3" style="background-color: yellow;"></div>
+			 	<div class="franja3"></div>
+			 </div>
+		 	<p>España</p>
+	 	</div>
+	 	<div class="conte">
+			 <div class="boxBandera espana">
+			 	<div class="franja2"></div>
+			 	<div class="franja1" style="width: 100%; height: 15px;"></div>
+			 	<div class="franja2"></div>
+
+			 	<div class="franja4"></div>
+			 </div>
+			 <p>Dinamarca</p>
+		</div>
+		<div class="conte">
+			 <div class="boxBandera espana">
+			 	<div class="franja3" style="background-color: green; margin-left: 60px;"></div>
+			 	<div class="franja3" style="background-color: white; margin-left: 60px;"></div>
+			 	<div class="franja3" style="background-color: black; margin-left: 60px;"></div>
+			 </div>
+			 <p>Emiratos Árabes</p>
+		</div>
+		<div class="conte">
+			 <div class="boxBandera">
+			 	<div class="circulo"></div>
+			 </div>
+			 <p>Japón</p>
+		</div>
+	 </body>
+ </html>
